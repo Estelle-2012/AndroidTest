@@ -5,11 +5,7 @@ import android.app.Application;
 import com.example.estelle.activitydemo.roomtest.db.AppDatabase;
 import com.example.estelle.activitydemo.roomtest.db.DataRepository;
 
-/**
- * @author wb.huhuimin
- * @Description: [功能描述]
- * @Time: [序号]${date} ${time}
- */
+
 public class MyApplication extends Application {
     private AppExecutors mAppExecutors;
 

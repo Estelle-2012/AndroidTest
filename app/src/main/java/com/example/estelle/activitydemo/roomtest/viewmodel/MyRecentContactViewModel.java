@@ -14,9 +14,10 @@ import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
 /**
- * @author wb.huhuimin
- * @Description: [功能描述]
- * @Time: [序号]${date} ${time}
+ * @Description: 
+ * @Author: wb.huhuimin
+ * @Time: 2018/10/23 18:36
+ * @update: wb.huhuimin 2018/10/23 18:36
  */
 public class MyRecentContactViewModel extends AndroidViewModel {
     final int cantactId;
