@@ -3,8 +3,9 @@ package com.example.estelle.activitydemo.sqlitetest;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.support.annotation.Nullable;
 import android.widget.Toast;
+
+import androidx.annotation.Nullable;
 
 /**
  * @author Estelle
