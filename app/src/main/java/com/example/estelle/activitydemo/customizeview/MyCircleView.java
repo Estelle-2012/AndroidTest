@@ -29,12 +29,20 @@ public class MyCircleView extends View {
 
     public MyCircleView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        paint = new Paint();
+//        paint = new Paint();
+        paint = new Paint(Paint.ANTI_ALIAS_FLAG);//开启抗锯齿（使边缘更加平滑）
+//        paint.setAntiAlias(true);//开启和关闭抗锯齿
     }
 
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
+        /**
+         * Style
+         * 1：FILL 是填充模式
+         * 2：STROKE 是画线模式（即勾边模式）
+         * 3：FILL_AND_STROKE 是两种模式一并使用：既画线又填充
+         */
         paint.setStyle(Paint.Style.FILL);//设置绘制模式
         paint.setColor(Color.YELLOW);// 设置颜色
         paint.setStrokeWidth(1);// 设置线条宽度
